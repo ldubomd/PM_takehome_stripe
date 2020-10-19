@@ -1,10 +1,20 @@
+# Key Take-aways:
+* Text-based guide provides user with a better high level overview of how to build an integration
+* Annotated code tutorial is helpful to see and play with the code in action. Website is incredibly responsive and changes between languages with ease
+* It would be helpful if complexity was better defined. Level of complexity can be somewhat subjective
+* Embedded video tutorials would be a vast improvement for certain types of learners and those with less technical skill
+
+
+
+# Trials & Error Attempts to Build My first app
+
 This log attempts to capture the attempts and friction points that a semi-technical product manager with limited coding experience outside html in junior high and a python intro class ran into when creating a payment form following Stripes developer tutorials. A basic understanding of how the front and back end interact with Stripes APIs are understood, but the basics of how you create and configure a react app and back-end server are brand new to me. 
 
 
 
 Attempt #1 : Follow tutorial from https://blog.logrocket.com/building-payments-system-react-stripe/
 
-Copying Secret key: Upon clicking on a key the page copies the key to your clipboard. This is really helpful, but with Safari there was a bit of a lag so I found myself tapping a few times trying to highlight the key till the friendly pop-up advised me it had been copied to my clipboard came up. 
+Performance bug for Safari: Copying Secret key: Upon clicking on a key the page copies the key to your clipboard. This is really helpful, but with Safari there was a bit of a lag so I found myself tapping a few times trying to highlight the key till the friendly pop-up advised me it had been copied to my clipboard came up. 
 
 User error: Following a tutorial that asked me to run "touch src/index.js && touch src/products.js” in the src directory, so I CD’ed into that directory not realizing command wouldn’t run in there, but did run outside of it 
 
