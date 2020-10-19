@@ -26,3 +26,10 @@ Option 1: Terminal will show each success and failure in real time.
 
 Option 2: Stripe cli
 From terminal enter "stripe listen"
+
+
+![Image of Tonic Checkout]
+(https://github.com/ldubomd/PM_takehome_stripe/blob/main/tonic_checkout.png)
+
+![Image of Backend Log & Stripe Webhook]
+(https://github.com/ldubomd/PM_takehome_stripe/blob/main/Backend_log_stripe_webhook.png)
