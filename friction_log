@@ -1,0 +1,42 @@
+This log attempts to capture the attempts and friction points that a semi-technical product manager with limited coding experience outside html in junior high and a python intro class ran into when creating a payment form following Stripes developer tutorials. A basic understanding of how the front and back end interact with Stripes APIs are understood, but the basics of how you create and configure a react app and back-end server are brand new to me. 
+
+
+
+Attempt #1 : Follow tutorial from https://blog.logrocket.com/building-payments-system-react-stripe/
+
+Copying Secret key: Upon clicking on a key the page copies the key to your clipboard. This is really helpful, but with Safari there was a bit of a lag so I found myself tapping a few times trying to highlight the key till the friendly pop-up advised me it had been copied to my clipboard came up. 
+
+User error: Following a tutorial that asked me to run "touch src/index.js && touch src/products.js” in the src directory, so I CD’ed into that directory not realizing command wouldn’t run in there, but did run outside of it 
+
+Abandoned attempt #1: Example I was using was for the /charges endpoint which is not the preferred integration type and did not use payment intents
+
+Attempt #2: Followed https://stripe.com/docs/payments/integration-builder 
+
+Setup new project with https://github.com/facebook/create-react-app#creating-an-app. Unsure whether to use npx, npm, or Yarn. Tried Yarn because it sounded familiar, but got an error, so ended up running npm init react-app my-app
+
+Felt lost and didn’t know how to create a back-end server until I started following the annotated guide https://stripe.com/docs/payments/integration-builder
+
+Toggles to choose platform, front-end, and backend very helpful
+
+Chose ruby out of backend options for no reason other then I recognized the name, and have engineering peers that might be able to provide guidance if I ran into trouble
+
+Abandoned attempt #2: Unable to compile. Missing App.js
+
+A video showing how to setup your back-end server would have helped me figure out what was missing, aborting this attempt
+
+
+Attempt #3: Signed up for a fireship.io course at https://fireship.io/courses/stripe-js/
+
+Abandoned Attempt #3: Fireship tutorial got too complicated for me, app stopped compiling
+
+
+Attempt #4: Download sample files and follow https://stripe.com/docs/payments/integration-builder
+
+Abandoned attempt #4: Stripe docs were not clear on how to create and connect a back-end server
+
+
+
+Attempt #5: Download and watch tutorial https://youtu.be/WTUYem2IxLA
+
+With enough googling I was able to get the app running, and was able to modify the example app provided with my own keys, and my own content for the app. 
+
