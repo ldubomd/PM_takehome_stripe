@@ -21,6 +21,8 @@ Modifying App with your own test keys
 2. Secret key: Replace the key located in the charge.js file
 
 Logging Responses for fulfillment
+
 Option 1: Terminal will show each success and failure in real time.
+
 Option 2: Stripe cli
 From terminal enter "stripe listen"
