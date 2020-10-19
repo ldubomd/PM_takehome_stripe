@@ -6,7 +6,7 @@
 
 
 
-# Trials & Error Attempts to Build My first app
+# Trial & Error Attempts to Build My first app
 
 This log attempts to capture the attempts and friction points that a semi-technical product manager with limited coding experience outside html in junior high and a python intro class ran into when creating a payment form following Stripes developer tutorials. A basic understanding of how the front and back end interact with Stripes APIs are understood, but the basics of how you create and configure a react app and back-end server are brand new to me. 
 
@@ -19,6 +19,7 @@ Performance bug for Safari: Copying Secret key: Upon clicking on a key the page 
 User error: Following a tutorial that asked me to run "touch src/index.js && touch src/products.js” in the src directory, so I CD’ed into that directory not realizing command wouldn’t run in there, but did run outside of it 
 
 Abandoned attempt #1: Example I was using was for the /charges endpoint which is not the preferred integration type and did not use payment intents
+
 
 Attempt #2: Followed https://stripe.com/docs/payments/integration-builder 
 
@@ -35,9 +36,11 @@ Abandoned attempt #2: Unable to compile. Missing App.js
 A video showing how to setup your back-end server would have helped me figure out what was missing, aborting this attempt
 
 
+
 Attempt #3: Signed up for a fireship.io course at https://fireship.io/courses/stripe-js/
 
 Abandoned Attempt #3: Fireship tutorial got too complicated for me, app stopped compiling
+
 
 
 Attempt #4: Download sample files and follow https://stripe.com/docs/payments/integration-builder
