@@ -1,4 +1,7 @@
-# React, Stripe, and Next.js
+# React, Stripe, and Next.js Product Manager Checkout
+
+Video of app running: https://github.com/ldubomd/PM_takehome_stripe/blob/main/Tonic_purchase_demo.mov
+
 This is a modification of Leigh Halliday's tutorial, which is available at  https://youtu.be/WTUYem2IxLA
 The original source can be downloaded here https://github.com/leighhalliday/react-stripe-elements-demo
 
