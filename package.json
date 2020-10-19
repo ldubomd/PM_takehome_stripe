@@ -1,0 +1,21 @@
+{
+  "name": "next-stripe-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leigh Halliday and modified by Leif Borden",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.10.0",
+    "axios": "^0.20.0",
+    "next": "^9.2.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "stripe": "^8.114.0"
+  }
+}
